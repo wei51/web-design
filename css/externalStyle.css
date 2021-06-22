@@ -1,0 +1,46 @@
+
+h1{
+    color:blue;
+    font-family: Arial, Impact;
+    font-style: normal, italic;
+    background-color: gray;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    color:red;
+    line-height: 200%
+}
+
+h2{
+    background-color:  #b3b3b3;
+}
+
+details{
+    font-style: italic;
+}
+
+summary{
+    font-style: normal;
+}
+
+footer{
+    background-color: gray;
+}
+
+span{
+    height: 50px;
+    width: 75px;
+    background: green;
+}
+
+div{
+    height: 50px;
+    width: 75px;
+    background: blue;
+    display: inline-block;
+    //float: left;
+}
