@@ -1,13 +1,29 @@
-
-h1{
-    color:blue;
-    font-family: Arial, Impact;
-    font-style: normal, italic;
-    background-color: gray;
+body{
+    //background: #B3B3B3;
+    margin: 4%;
 }
 
 header{
     text-align: center;
+    padding-bottom: 2%;
+}
+
+h1{
+    color:rgb(152, 230, 26);
+    font-size: 250%;
+    font-family: Arial, Impact;
+    font-style: normal, italic;
+    background-color: gray;
+}
+nav{
+    font-size: 50%;
+}
+
+section{
+    width: 30%;
+    display: inline-block;
+    float: left;
+    margin: 1%;
 }
 
 p{
@@ -29,6 +45,7 @@ summary{
 
 footer{
     background-color: gray;
+    clear: both; //don't float
 }
 
 span{
@@ -39,8 +56,45 @@ span{
 
 div{
     height: 50px;
-    width: 75px;
+    width: 50%;
     background: blue;
-    display: inline-block;
+    //display: inline-block;
     //float: left;
+    border: 5px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+/* id selector */
+#school{
+    display: block;
+    font-weight: bold;
+    color: #ffffff;
+    background: #0006cc;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+#school:hover{
+    background: #b3b3b3;
+    color: #0006cc;
+}
+
+/* descendent selector*/
+nav a{
+    width: 22%;
+    display: inline-block;
+    background: #ffffff;
+}
+
+/* class selector*/
+.half{
+    width: 45%;
+    margin-right: 2px;
+    display: inline-block;
+    background: #ffffff;
 }
