@@ -35,7 +35,9 @@ span
     </pre>
 </details>
 
-* Week two: reacting to your audience
+<details>
+<summary>Week two: reacting to your audience</summary>
+    <pre>
     * Functions: function name(parameters){};
     * Place in external files:
         ```html
@@ -54,3 +56,5 @@ span
         * Keyboard events: onkeydown, onkeypress ...
         * Frame events: onload, onresize, onscroll, onerror ...
     [] events, this
+    </pre>
+</details>
