@@ -9,7 +9,9 @@ span
 #### Course 2:Introduction to CSS3
 #### Course 3:Interactivity with JavaScript
 
-* Week one: introduction to JavaScript
+<details>
+<summary>Week one: introduction to JavaScript</summary>
+    <pre>
     * Scripting languages (JavaScript)
         * API (Application programming interface)
         * read and write HTML
@@ -30,6 +32,9 @@ span
         * Boolean: var windowStatus = window.closed;
         * Object:  var topic = document.getElementById('ID');  ex: return a tag
         * Array:   var links = document.getElementsByTagName('a');
+    </pre>
+</details>
+
 * Week two: reacting to your audience
     * Functions: function name(parameters){};
     * Place in external files:
