@@ -2,10 +2,30 @@
 div
 span
 
-## Course 1:Introduction to HTML5
-## Course 2:Introduction to CSS3
-## Course 3:Interactivity with JavaScript
+#### Course 1:Introduction to HTML5
+#### Course 2:Introduction to CSS3
+#### Course 3:Interactivity with JavaScript
 
-* item1
-    * item2
-
+* Week one: introduction to JavaScript
+    * Scripting languages (JavaScript)
+        * API (Application programming interface)
+        * read and write HTML
+        * <script>
+            alert();
+            prompt(); ask for input
+            document.write(<h1> Hello world! </h1>);
+            element.innerHTML = " ";
+            console.log(); for debugging
+        </script>
+    * Variables: 
+        * var name = " ";
+        * var date = Date();
+        * var loca = window.location();
+    * Data type:
+        * Numeric: var width = window.innerWidth;
+        * String:  var loca = window.location();
+        * Boolean: var windowStatus = window.closed;
+        * Object:  var topic = document.getElementById('ID');  ex: return a tag
+        * Array:   var links = document.getElementsByTagName('a');
+* Week two: reacting to your audience
+    * Functions: function name(parameters){};
