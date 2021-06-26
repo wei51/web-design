@@ -33,8 +33,19 @@ span
 * Week two: reacting to your audience
     * Functions: function name(parameters){};
     * Place in external files:
-        ```
+        ```html
         <head>
-            <script src="js/xxx.js></script>
+            <script src="js/xxx.js"></script>
         </head>
         ```
+    * Folder structure:
+        ```html
+        <link rel="stylesheet" href="css/style.css"> 
+        <script src="js/function.js"></script>
+        <img src="img/image1.png"> 
+        ```
+    * Events:
+        * Mouse events: onclick, ondblclick, onmousedown ...
+        * Keyboard events: onkeydown, onkeypress ...
+        * Frame events: onload, onresize, onscroll, onerror ...
+    [] events, this
