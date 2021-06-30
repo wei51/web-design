@@ -9,9 +9,7 @@ span
 #### Course 2:Introduction to CSS3
 #### Course 3:Interactivity with JavaScript
 
-<details>
-<summary>Week one: introduction to JavaScript</summary>
-    <pre>
+Week one: introduction to JavaScript
     * Scripting languages (JavaScript)
         * API (Application programming interface)
         * read and write HTML
@@ -32,12 +30,8 @@ span
         * Boolean: var windowStatus = window.closed;
         * Object:  var topic = document.getElementById('ID');  ex: return a tag
         * Array:   var links = document.getElementsByTagName('a');
-    </pre>
-</details>
 
-<details>
-<summary>Week two: reacting to your audience</summary>
-    <pre>
+Week two: reacting to your audience
     * Functions: function name(parameters){};
     * Place in external files:
         ```html
@@ -56,5 +50,10 @@ span
         * Keyboard events: onkeydown, onkeypress ...
         * Frame events: onload, onresize, onscroll, onerror ...
     [] events, this
-    </pre>
-</details>
+
+Week four: 
+
+    * Forms: <form>, <label>, <input>
+    * Input validation: <pattern={using regular expression}> , <required>
+    * Comparing two inputs: ex: input same password
+    * Checkboxes and radio buttons: <label><input type="checkbox"></label>
