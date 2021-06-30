@@ -11,9 +11,7 @@ span
 <details>
 <summary> Course 3:Interactivity with JavaScript </summary>
 <pre>
-#### 
-
-Week one: introduction to JavaScript
+#### Week one: introduction to JavaScript
 * Scripting languages (JavaScript)
     * API (Application programming interface)
     * read and write HTML
@@ -62,7 +60,15 @@ Week four:
 * Comparing two inputs: ex: input same password
 * Checkboxes and radio buttons: <label><input type="checkbox"></label>
 
+</pre></details>
+
+
+
+<details>
+<summary> Course 4 : Advance styling with responsive design </summary>
+<pre>
+
+#### Week 1: Introdution to responsive design
+
 </pre>
 </details>
-
-#### Course 4:
