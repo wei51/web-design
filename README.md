@@ -114,6 +114,37 @@ span
     ```
     * Step2: Fluid layout
     * Step3: Media queries. It is important to order rules
-        
+
+#### Week 3/ Week 4: Use existing frameworks: bootstrap
+
+* Framework: Bootstrap
+* xs-(480px), sm-(720px), md-(992px), lg-(1200px)
+* Responsive images: 
+    * In CSS: width:100%, max-width:750px, min_width:200px, set height to auto
+    * Bootstrap: img-responsive, img-rounded, img-circle, img-thumbnail
+
+
+</pre>
+</details>
+
+
+
+<details>
+<summary> Others: jQuery </summary>
+<pre>
+
+* jQuery起手式
+    ``` js
+    $(document).ready(function(){
+
+    });
+
+    (function($){
+
+    })(jQuery);
+    ```
+* var $demo =  $("#demo1"); //得到 JQuery 物件
+* var demo = document.getElementById('demo1');   // 得到 DOM 物件
+
 </pre>
 </details>
