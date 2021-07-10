@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        
+        .banner{
+            width: 100%;
+            height: 100vh;
+            background-color: lightgray;
+            background: 
+                linear-gradient(115deg,  darkorange 50%, transparent 50%) center center / 100% 100%,
+                url("https://picsum.photos/1200/600/?random=12") right center / auto 100%;
+        }
+        .container{
+            /* width: 1200px; */
+            width: 100%;
+            max-width: 1440px;  /* mac resolution*/
+            height: 100%;
+            margin: auto;
+            padding-left: 50px;
+        }
+        .banner-txt{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+        .banner-txt h1{
+            font-size: 50px;
+            border-bottom: 1px solid gray;
+            font-weight: 900;
+            padding-bottom: .3em;
+            margin-bottom: .3em;
+        }
+        .banner-txt small{
+            display: block;
+            font-weight: 700;
+        }
+        .banner-txt h2{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .banner-txt p{
+            font-size: 20px;
+            font-weight: 100;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="container">
+            <div class="banner-txt">
+                <h1>圖文滿版練習
+                    <small>
+                        <!-- 這個畫面怎麼切 -->
+                    </small>
+                </h1>
+                <h2>Techniques</h2>
+                <p>CSS reset<br>
+                   inline & block <br>
+                   flex-direction 的原理 <br>
+                   漸層色彩與多重背景撰寫方式(合體技) <br>
+                   100vh 螢幕高度 <br>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    
+</body>
+</html>
