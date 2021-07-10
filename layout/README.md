@@ -5,4 +5,4 @@
 * CSS reset
 * background: linear-gradient
 * multiple background (several background settings)
-![title](Image/圖文滿版.png)
+![title](Image/圖文滿版.png =250x)
