@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        body{
+            background-color: black;
+        }
+
+        .main-footer .container{
+            display: flex;
+            width: 1200px;
+            margin: auto;
+        }
+
+        .main-footer{
+            padding: 150px 0 0;
+            background: linear-gradient(-20deg, #3f5494, #08c7a5);
+        }
+
+        .footer-item{
+            width: 0;
+            flex-grow: 1;
+            margin: 0 20px;
+        }
+
+        .footer-item h4{
+            color: white;
+            font-size: 24px;
+            border-bottom: 1px dotted white;
+            margin-bottom: .4em;
+            padding-bottom: .4em;
+        }
+
+        .footer-item nav{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .footer-item nav a{
+            color: white;
+            text-decoration: none;
+            line-height: 1.5;
+            padding: 5px 0;
+        }
+
+        .footer-item nav a:hover{
+            color: orange;
+        }
+        .footer-subscription{
+            display: flex;
+            flex-direction: column;
+        }
+        .footer-subscription form {
+            display: flex;
+            width: 100%;
+            margin: auto;
+        }
+
+        .footer-subscription input[type="text"],
+        .footer-subscription input[type="submit"]{
+            border: none;
+            padding: 5px 10px;
+        }
+
+        .footer-subscription input[type="text"]{
+            width: 0;
+            flex-grow: 1;
+
+        }
+        .footer-subscription input[type="submit"]{
+            color: #70f6df;
+            background-color: #3e5293;
+        }
+
+        .copyright{
+            text-align: center;
+            margin: 150px 0 0;
+            padding: 10px 0px;
+            background-color: #3e5293;
+            color: #70f6df;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="main-footer">
+        <div class="container">
+            <div class="footer-item">
+                <h4>Title</h4>
+                <nav>
+                    <a href="#">abcd</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>Title</h4>
+                <nav>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                </nav>
+            </div>
+            <div class="footer-item">
+                <h4>Title</h4>
+                <nav>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                    <a href="#">efgh</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-subscription">
+                <h4>Title</h4>
+                <form>
+                    <input type="text" name="">
+                    <input type="submit" value="subscribe">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            Copyright &copy; 2020
+        </div>
+    </div>
+</body>
+</html>
